@@ -1,0 +1,43 @@
+body,
+html {
+    height: 100%;
+    /* take up the 100% of the page */
+}
+
+.topnav {
+    background: rgb(24, 134, 197);
+    overflow: hidden;
+    /* width: fit-content; */
+    /* removing the extras */
+}
+
+.topnav a {
+    text-decoration-line: none;
+    /* remove line as a result of tag (a) */
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    padding: 14px 16px;
+    float: left;
+    /* text-transform: capitalize; */
+}
+
+
+/* psuedo classes (:) use the semi colon */
+
+.topnav a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+section.hero-image {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./Images/unsplash2.jpg);
+    /* background-image: url(./Images/unsplash2.jpg); covers the whole screen */
+    /* opacity: .7; */
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    /* object-fit: cover; */
+}
